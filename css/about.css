@@ -292,3 +292,195 @@ ul li:hover .drop-down
     background-repeat: no-repeat;
     margin-left: 50px;
 }
+.main-team
+{
+    height: 500px;
+    width: 100%;
+    /* background-color: violet; */
+   margin-top: 150%;
+    position: absolute;
+}
+.team-1140
+{
+    height: 500px;
+    width: 1140px;
+    margin: auto;
+    /* background-color: aqua;  */
+}
+.team-flex
+{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px
+}
+.team-box
+{
+    height: 400px;
+    width:calc(33.33% - 20px);
+     /* background-color: blue;  */
+}
+.pic1
+{
+    background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/agent-7.jpg");
+    background-size: cover;
+}
+.pic2
+{
+    background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/agent-6.jpg");
+    background-size: cover;
+}
+.pic3
+{
+    background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/agent-5.jpg");
+    background-size: cover;
+}
+.heading
+{
+    height: 100px;
+    width: 1140px;
+    /* background-color: #2eca6a; */
+    margin-top: 140%;
+    position: absolute;
+    margin-left: 5%;
+}
+.text
+{
+    /* background-color: blue; */
+    height: 50px;
+    width: 450px;
+}
+.text h1
+{
+    font-size: 50px;
+    margin-left: 0px;
+    font-family: sans-serif;
+}
+.footer
+{
+    height: 700px;
+    width: 100%;
+    background-color: lightgray;
+    position: absolute;
+    margin-top: 190%;
+}
+.footer-box-1
+{
+    height: 550px;
+    width: calc(33.33% - 20px);
+    margin-top: 50px;
+ 
+}
+.flex-footer
+{
+    height: 600px;
+    display:flex ;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+
+}
+.flex-footer h2
+{
+    /* position: absolute; */
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+}
+.flex-footer-p
+{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+    margin-top: 120px;
+    margin-left: 10px;
+ 
+}
+.flex-footer-p p
+{
+    text-align: justify;
+    font-size: 20px;
+    color: #555555;
+}
+.flex-footer-phno
+{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    /* position: relative; */
+ 
+}
+.flex-footer-phno p
+{
+    text-align: justify;
+    font-size: 20px;
+    color: #555555;
+}
+.div-list
+{
+    /* background-color:white; */
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+.div-mini
+{
+    /* background-color:white; */
+    height: 100px;
+    width: 100%;
+}
+.div-mini ul
+{
+    position: relative;
+}
+.div-mini ul li 
+{
+    margin-left: -40px;
+  
+}
+.div-mini i
+{
+   margin-left: 50px;
+   margin-top: 20px;
+   /* padding: -10px; */
+}
+.div-list ul
+{
+    position: absolute;
+}
+
+.div-list ul li a
+{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.div-list i
+{
+    margin-left: -25px;
+    position: absolute;
+    color: #2eca6a;
+}
+.copy-right-footer
+{
+    width: 100%;
+    height: 100px;
+    background-color:lightgray;
+    position: absolute;
+}
+.copy-right-footer p
+{
+   
+    text-align: center;
+    margin-top: 10px;
+    color: #555555;
+}
+.copy-right-footer span
+{
+    color: black;
+   
+}
