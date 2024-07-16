@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.w-100
+{
+    height: 100px;
+    width: 100%;
+    background-color:blue;
+    position: fixed;
+    z-index: 3;
+    box-shadow: 0px 10px 20px rgba(101, 101, 101, 0.2);  
+    margin-top: -150px;
+   
+}
+.div-20
+{
+    height: 100px;
+    width: 20%;
+    background-color: white;
+}
+.div-80
+{
+    height: 100px;
+    width: 80%;
+    background-color: white;
+}
+.flex
+{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+h1
+{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 3%;
+    position: absolute;
+    font-size: 30px;
+}
+span
+{
+    color: #2eca6a;;
+}
+ul
+{
+    position: relative;
+}
+ul li
+{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+
+}
+ul li a
+{
+    text-decoration: none;
+    color: black;
+    display: block;
+    float: left;
+    margin-top: 4%;
+    margin-left: 8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    
+}
+.drop-down
+{
+    height: 200px;
+    width: 200px;
+    /* background-color: blueviolet; */
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 55%;
+    display: none;
+}
+.dd1
+{
+    height: 200px;
+    width: 200px;
+    background-color: white; 
+    position: absolute;
+    
+}
+.dd1 ul li 
+{
+  
+    position: relative;
+    margin-top: 20px;
+    padding: 5px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li:hover .drop-down
+{
+    display: block;
+    z-index: 1;
+}
+.banner
+{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    /* position: absolute; */
+    margin-top: 100px;
+    position: absolute;
+}
+.banner-title
+{
+    height: 150px;
+    width: 60%;
+    background-color: white;
+}
+.banner-title h2
+{
+   margin-top: 35px;
+   font-size: 40px;
+   text-align: justify;
+   /* position: absolute; */
+    content: "";
+    font-family: sans-serif;
+    margin-left: 70px;
+}
+.banner-title h3
+{
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 70px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #555555;
+    font-weight: lighter;
+}
+.banner-title::before
+{
+    content: "";
+    height: 120px;
+    width: 5px;
+    background-color: #2eca6a;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -5px;
+}
+.banner a
+{
+    color: black;
+    margin-left: 70%;
+    margin-top: -8%;
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+}
+.banner p a 
+{
+    color: black;
+    margin-left: 75%;
+    margin-top: -8%;
+    /* position: absolute; */
+    text-decoration: none;
+    font-size: 20px;
+    color: #555555;
+}
+
+.dd
+{
+    
+    margin-top: 120px;
+    position:relative;
+    width: 100%;
+    height: 50px;
+
+}
+.custom-select {
+    border-radius: 0px;
+    border-color:black;
+    font-size: 50px;
+}
+form
+{
+    display: block;
+    margin-left: 75%;
+    height: 20px;
+
+}
+
+.flex2
+{
+    height: 450px;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+ 
+}
+.main-pro
+{
+    height: 450px;
+    width: 100%;
+    /* background-color: #2eca6a; */
+    margin-top: 0px;
+    position: absolute;
+  
+}
+
+.mini-pro
+{
+    height: 450px;
+    width: 1140px;
+    /* background-color: #555555; */
+    margin: auto;
+    /* position: absolute; */
+}
+.box-pro
+{
+    height: 450px;
+    width: calc(33.33% - 20px);
+    background-color: aqua;
+    overflow: hidden;
+    margin-top: 30px;
+    /* position: relative; */
+    /* z-index: 1; */
+}
+
+.box-property
+{
+    height: 450px;
+    width: 100%;
+   background-size: cover;
+   background-color: #2eca6a;
+   transition: 2s;
+   position: relative;
+    /* overflow: hidden; */
+    /* position: relative; */
+    /* z-index: 1; */
+}
+/* .box-property::before
+{
+    content: "";
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 1;
+} */
+.bg1
+{
+    background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/property-1.jpg");
+    background-size: cover;
+    transition: 2s;
+    content: "";
+    position: relative;
+}
+.bg1:hover
+{
+    transform: scale(1.5);
+}
+.bg1::before
+{
+    content: "";
+    height: 450px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 1;
+}
+.bg2
+{
+    background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/property-3.jpg");
+    background-size: cover;
+    transition: 2s;
+}
+.bg2:hover
+{
+    transform: scale(1.5);
+}
+.bg2::before
+{
+    content: "";
+    height: 450px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 1;
+}
+.bg3
+{
+    background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/property-6.jpg");
+    background-size: cover;
+    transition: 2s;
+}
+.bg3:hover
+{
+    transform: scale(1.5);
+}
+.bg3::before
+{
+    content: "";
+    height: 450px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 1;
+}
+.bg11
+{
+    background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/property-7.jpg");
+    background-size: cover;
+    transition: 2s;
+}
+.bg11:hover
+{
+    transform: scale(1.5);
+}
+.bg11::before
+{
+    content: "";
+    height: 450px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+.bg12
+{
+    background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/property-8.jpg");
+    background-size: cover;
+    transition: 2s;
+}
+.bg12:hover
+{
+    transform: scale(1.5);
+}
+.bg12::before
+{
+    content: "";
+    height: 450px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+.bg13
+{
+    background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/property-10.jpg");
+    background-size: cover;
+    transition: 2s;
+}
+.bg13:hover
+{
+    transform: scale(1.5);
+}
+.bg13::before
+{
+    content: "";
+    height: 450px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+.info
+{
+    height: 200px;
+    width: 100%;
+    /* background-color: #555555; */
+    z-index: 2;
+    margin-top: 280px;
+    position: absolute;
+}
+.info span
+{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 32px;
+    margin-top: 38px;
+    position: absolute;
+}
+.info h1
+{
+    color: white;
+    margin-top: 0px;
+    position: absolute;
+    font-family: sans-serif;
+    margin-left: 35px;
+}
+
+.info a span
+{
+    margin-top: 22%;
+    font-size: 20px;
+    border: 2px;
+    border-color: #2eca6a;
+    border-style: groove;
+    border-radius: 30px;
+    padding: 10px;
+}
+.info a p
+{
+    margin-top: 38%;
+    margin-left: 35px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.info i{
+    color: white;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 210px;
+}
+.footer
+{
+    height: 700px;
+    width: 100%;
+    background-color: lightgray;
+    position: absolute;
+    margin-top:80%;
+}
+.footer-box-1
+{
+    height: 550px;
+    width: calc(33.33% - 20px);
+    margin-top: 50px;
+ 
+}
+.flex-footer
+{
+    height: 600px;
+    display:flex ;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+
+}
+.flex-footer h2
+{
+    /* position: absolute; */
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+}
+.flex-footer-p
+{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+    margin-top: 120px;
+    margin-left: 10px;
+ 
+}
+.flex-footer-p p
+{
+    text-align: justify;
+    font-size: 20px;
+    color: #555555;
+}
+.flex-footer-phno
+{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    /* position: relative; */
+ 
+}
+.flex-footer-phno p
+{
+    text-align: justify;
+    font-size: 20px;
+    color: #555555;
+}
+.div-list
+{
+    /* background-color:white; */
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+.div-mini
+{
+    /* background-color:white; */
+    height: 100px;
+    width: 100%;
+}
+.div-mini ul
+{
+    position: relative;
+}
+.div-mini ul li 
+{
+    margin-left: -40px;
+  
+}
+.div-mini i
+{
+   margin-left: 50px;
+   margin-top: 20px;
+   /* padding: -10px; */
+}
+.div-list ul
+{
+    position: absolute;
+}
+
+.div-list ul li a
+{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.div-list i
+{
+    margin-left: -25px;
+    position: absolute;
+    color: #2eca6a;
+}
+.copy-right-footer
+{
+    width: 100%;
+    height: 100px;
+    background-color:lightgray;
+    position: absolute;
+}
+.copy-right-footer p
+{
+   
+    text-align: center;
+    margin-top: 10px;
+    color: #555555;
+}
+.copy-right-footer span
+{
+    color: black;
+   
+}
