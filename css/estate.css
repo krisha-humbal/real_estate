@@ -394,7 +394,7 @@ h2 {
     width: 100%;
    background-size: cover;
    background-color: #2eca6a;
-   transition: 2s;
+   /* transition: 0.2s; */
    position: relative;
     /* overflow: hidden; */
     /* position: relative; */
@@ -414,13 +414,13 @@ h2 {
 {
     background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/property-1.jpg");
     background-size: cover;
-    transition: 2s;
+    transition: 5s;
     content: "";
     position: relative;
 }
 .bg1:hover
 {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .bg1::before
 {
@@ -436,11 +436,11 @@ h2 {
 {
     background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/property-3.jpg");
     background-size: cover;
-    transition: 2s;
+    transition: 5s;
 }
 .bg2:hover
 {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .bg2::before
 {
@@ -456,11 +456,11 @@ h2 {
 {
     background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/property-6.jpg");
     background-size: cover;
-    transition: 2s;
+    transition: 5s;
 }
 .bg3:hover
 {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .bg3::before
 {
@@ -472,14 +472,15 @@ h2 {
     opacity: 0.4;
     z-index: 1;
 }
+
 .info
 {
     height: 200px;
     width: 100%;
-    /* background-color: #555555; */
+    background-color:transparent;
     z-index: 2;
     margin-top: 280px;
-    position: absolute;
+    position:absolute;
 }
 .info span
 {
@@ -544,29 +545,73 @@ h2 {
     height: 450px;
     width: calc(33.33% - 20px);
     background-color: aqua;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* position: relative; */
     /* z-index: 1; */
 }
+
 .bg4
 {
     background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/agent-4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    content: "";
+}
+.bg4::before
+{
+    content: "";
+    height: 450px;
+    width: calc(33.33% - 60px);
+    background-color: #2eca6a;
+    opacity: 0.6;
+    position: absolute;
+    display: none;
 }
 
+.bg4:hover.bg4::before
+{
+    display: block;
+}
 .bg5
 {
     background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/agent-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
+.bg5::before
+{
+    content: "";
+    height: 450px;
+    width: calc(33.33% - 60px);
+    background-color: #2eca6a;
+    opacity: 0.6;
+    position: absolute;
+    display: none;
+}
 
+.bg5:hover.bg5::before
+{
+    display: block;
+}
 .bg6
 {
     background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/agent-5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+.bg6::before
+{
+    content: "";
+    height: 450px;
+    width: calc(33.33% - 60px);
+    background-color: #2eca6a;
+    opacity: 0.6;
+    position: absolute;
+    display:none;
+}
+.bg6:hover.bg6::before
+{
+    display: block;
 }
 .travel-main
 {
@@ -616,7 +661,7 @@ h2 {
 }
 .bg7:hover
 {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .bg7::before
 {
@@ -636,7 +681,7 @@ h2 {
 }
 .bg8:hover
 {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .bg8::before
 {
@@ -656,7 +701,7 @@ h2 {
 }
 .bg9:hover
 {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .bg9::before
 {
