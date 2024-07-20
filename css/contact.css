@@ -1,0 +1,244 @@
+
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .main
+ {
+    height: 100px;
+    width: 100%;
+    /* background-color: blue; */
+    position: fixed;
+    box-shadow: 0px 10px 20px rgba(101, 101, 101, 0.2);  
+    z-index: 5;
+    background-color: white;
+    /* position: relative; */
+ }
+ .flex
+ {
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 100px; */
+    flex-direction: row;
+ }
+ .div-20
+ {
+    height: 100px;
+    width: 20%;
+    /* background-color: aqua; */
+    /* position: absolute; */
+ }
+ .div-80{
+    height: 100px;
+    width: 80%;
+    /* background-color: wheat; */
+    /* position: absolute; */
+ }
+ h1
+{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+span
+{
+    color: #2eca6a;;
+}
+ul
+{
+    position: relative;
+}
+ul li
+{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+
+}
+ul li a
+{
+    text-decoration: none;
+    color: black;
+    display: block;
+    float: left;
+    margin-top: 4%;
+    margin-left: 8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    
+}
+.drop-down
+{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 55%;
+    display: none;
+}
+.dd1
+{
+    height: 200px;
+    width: 200px;
+    background-color: white; 
+    position: absolute;
+    
+}
+.dd1 ul li 
+{
+  
+    position: relative;
+    margin-top: 20px;
+    padding: 5px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li:hover .drop-down
+{
+    display: block;
+    z-index: 1;
+} 
+.banner
+{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    /* position: absolute; */
+    margin-top: 200px;
+    position: absolute;
+}
+.banner-title
+{
+    height: 150px;
+    width: 60%;
+    background-color: white;
+}
+.banner-title h2
+{
+   margin-top: 35px;
+   font-size: 40px;
+   text-align: justify;
+   /* position: absolute; */
+    content: "";
+    font-family: sans-serif;
+    margin-left: 70px;
+}
+.banner-div
+{
+    height: 100px;
+    width: 700px;
+    background-color:transparent;
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 20px;
+}
+.banner-title h3
+{
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #555555;
+    font-weight: lighter;
+    text-wrap: wrap;
+    text-align: left;
+}
+.banner-title::before
+{
+    content: "";
+    height: 180px;
+    width: 3px;
+    background-color: #2eca6a;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -5px;
+}
+.banner a
+{
+    color: black;
+    margin-left: 70%;
+    margin-top: -10%;
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+}
+.banner p a 
+{
+    color: black;
+    margin-left: 75%;
+    margin-top: -10%;
+    /* position: absolute; */
+    text-decoration: none;
+    font-size: 20px;
+    color: #555555;
+}
+.main-map
+{
+    width: 100%;
+    height: 500px;
+    /* background-color: #2eca6a; */
+    margin-top: 40%;
+    position: absolute;
+}
+.mini-map
+{
+    width: 1140px;
+    height: 600px;
+    /* background-color: #555555; */
+    margin: auto;
+}
+.main-sec
+{
+    width: 100%;
+    height: 600px;
+    /* background-color: #2eca6a; */
+    margin-top: 90%;
+    position: absolute;
+}
+
+.box
+{
+    height: 550px;
+    width: calc(50% - 30px);
+    background-color: aqua;
+    margin: 15px;
+
+}
+.box input
+{
+    height: 45px;   
+    border: 1px;
+    border-color: #555555;
+    margin-top: 60px;
+    border-style: groove;
+    /* position: absolute; */
+    width: 250px;
+    /* margin-left: 10%; */
+    margin: 8px;
+}
+input::placeholder
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 15px;
+    position: absolute;
+    font-size: 18px;
+}
+
+#in
+{
+    width: 500px;
+    margin-top: 20px;
+}
+
+#add
+{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /* position: absolute; */
+    margin-left:10px;
+}
