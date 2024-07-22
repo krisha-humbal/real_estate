@@ -550,14 +550,14 @@ h2 {
     /* z-index: 1; */
 }
 
-.bg4
+.bg20
 {
     background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/agent-4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    content: "";
+    /* content: ""; */
 }
-.bg4::before
+/* .bg4::before
 {
     content: "";
     height: 450px;
@@ -566,19 +566,16 @@ h2 {
     opacity: 0.6;
     position: absolute;
     display: none;
-}
+}*/
 
-.bg4:hover.bg4::before
-{
-    display: block;
-}
-.bg5
+
+.bg21
 {
     background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/agent-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-.bg5::before
+/* .bg5::before
 {
     content: "";
     height: 450px;
@@ -592,14 +589,18 @@ h2 {
 .bg5:hover.bg5::before
 {
     display: block;
-}
-.bg6
+} */
+.bg22
 {
     background-image: url("https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/agent-5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-.bg6::before
+.bg22:hover.layer
+{
+    display: block;
+}
+/* .bg6::before
 {
     content: "";
     height: 450px;
@@ -612,7 +613,100 @@ h2 {
 .bg6:hover.bg6::before
 {
     display: block;
+} */
+ .layer
+ {
+    height: 450px;
+    width: 100%;
+    background-color: #2eca6a;
+    opacity: 0.92;
+    /* position: absolute; */
+    position: relative;
+    /* display: none; */
+ }
+ .link-two {
+    color: #000000;
+    transition: all 0.5s ease;
 }
+
+.layer a {
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.layer-p
+{
+    height: 50px;
+    width: 80%;
+    /* position: relative; */
+    position: absolute;
+    /* background-color: aliceblue; */
+    margin-top: 28%;
+}
+.layer-p p
+{
+    color: #555555;
+    margin-left: 20px;
+    font-family: sans-serif;
+    transition: all 0.5s ease;
+}
+.layer-content
+{
+    height: 100px;
+    width: 100%;
+    /* position: relative; */
+    position: absolute;
+   /* background-color: aliceblue; */
+    margin-top: 45%;
+}
+.layer-content h3
+{
+    position: absolute;
+    margin-left: 20px;
+    transition: all 0.5s ease;
+}
+.layer-content p
+{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-left: 100px;
+    transition: all 0.5s ease;
+}
+#email
+{
+    position: absolute;
+    margin-top: 30px;
+
+}
+.layer-icon
+{
+    height: 50px;
+    width: 180px;
+    /* position: relative; */
+    position: absolute;
+    /* background-color: aliceblue; */
+    margin-top: 80%;
+    margin-left: 25%;
+    transition: 0.1s;
+}
+.layer-icon i
+{
+    font-size: 20px;
+    padding: 10px;
+    transform: scale(20px);
+}
+/* .layer p
+{
+    color: #555555;
+    position: absolute;
+    margin-top: 10%;
+} */
 .travel-main
 {
     height: 450px;
