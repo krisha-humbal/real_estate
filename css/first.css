@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.bimg
+{
+    width: 100%;
+    /* background-image: url(https://bootstrapmade.com/demo/templates/EstateAgency/assets/img/slide-1.jpg) ; */
+    /* height: 00px; */
+    display: block;
+    /* content: ""; */
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+}
+.bimg::before
+{
+    content: "";
+    background-color: black;
+    width: 100%;
+    /* height: 630px; */
+     /* height: 800px;  */
+     position: absolute;
+    z-index: 1;
+    opacity: 0.4;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} 
+ 
+img
+{
+    display: block;
+    width: 100%;
+}
+.pera
+{
+  width: 150px;
+  background-color: aqua;
+  margin: -500px 10px 0px 100px; 
+  z-index: 5;
+  position: absolute;
+}
+.pera p
+{
+    position: absolute;
+    font-size: 20px;
+    position: absolute;
+    color: white; 
+    padding: 10px;
+    font-family: sans-serif;
+}
+.big-pera
+{
+    width: 500px;
+  background-color: aqua;
+  margin: -430px 10px 0px 100px; 
+  z-index: 5;
+  position: absolute;
+}
+.big-pera h2
+{
+    position: absolute;
+    font-size: 50px;
+    position: absolute;
+    color: white; 
+    padding: 10px;
+}
+.big-pera span
+{
+
+    color: #2eca6a;
+}
+.rent
+{
+    width: 190px;
+    /* background-color:aqua ; */
+    border-radius: 25PX;
+    border: 2px;
+    border-style: groove;
+    border-color: #2eca6a;
+    margin: -250px 10px 0px 100px; 
+    padding: 10px ;
+    z-index: 5;
+    position: absolute;
+}
+.rent h2
+{
+    font-size: 28px;
+    color: white;
+    margin: 0px 0px 0px 5px;
+    font-family: sans-serif;
+}
+.main-100
+{
+    width: 100%;
+}
+.main-1140
+{
+    width: 1140px;
+    margin: auto;
+    /* background-color: palevioletred; */
+    
+}
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box
+{
+    width: calc(33.33% - 30px);
+    /* background-color:blueviolet; */
+    margin: 15px;
+   
+}
+.main-100 h1
+{
+    margin: 35px 15px 20px 100px;
+    font-size: 50px;
+}
+.icon-card
+{
+    width: 150px;
+    background-color: white;
+    border: 3px;
+    border-style: ridge;
+    border-color: #2eca6a;
+    margin: 25px ;
+}
+.icon-card i
+{
+    font-size: 60px;
+    margin: 10px 0px -200px 40px;
+    padding-bottom: 50px;
+  
+}
+.icon-card h1
+{
+    font-size: 30px;
+    margin: 0px 0px 0px 150px;
+}
+.box h2
+{
+    margin: -80px 0px 0px 12%;
+    position: absolute;
+    font-size: 35px;
+}
+.box-pera
+{
+    width: 100%;
+    /* background-color: #2eca6a; */
+    margin-top: 10px 0px 0px 10px;
+    /* position: relative; */
+}
+.box-pera p
+{
+    margin: 10px 0px 0px 30px;
+    font-size: 15px;
+  
+    /* position: relative; */
+}
+.box-pera h4
+{
+    margin: 30px 0px 0px 30px;
+    font-weight: lighter;
+}
+.box-pera i
+{
+    margin: -15px 0px 0px 120px;
+    position: absolute;
+}
+.main-1140 h1
+{
+    margin-left: 15px;
+    margin-top: 50px;
+    position: absolute;
+}
+.heading
+{
+    width: 100%;
+    /* background-color: blueviolet; */
+    margin: 100px 0px 0px 0px;
+}
+.heading h2
+{
+    /* margin: 100px ; */
+    /* position: absolute; */
+    font-size: 50px;
+    
+   
+}
+.heading h4
+{
+    /* margin: 0px -120px 0px 0px; */
+    margin: -30px 0px 0px 75%;
+    position: absolute;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.heading i
+{
+    margin: -30px 0px 0px 83%;
+    position: absolute;
+}
+.heading a
+{
+    text-decoration: none;
+    color: black;
+}
+.img-box
+{
+    width: calc(33.33% - 30px);
+    /* background-color:blueviolet; */
+    margin: 15px;
+    display: block;
+    position: relative;
+    /* content: ""; */
+    /* z-index: -1; */
+}
+.img-box::before
+{
+    content: "";
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.5;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
