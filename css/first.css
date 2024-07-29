@@ -217,10 +217,12 @@ img
     margin: 15px;
     display: block;
     position: relative;
+    overflow: hidden;
+
     /* content: ""; */
     /* z-index: -1; */
 }
-.img-box::before
+/* .img-box::before
 {
     content: "";
     background-color: black;
@@ -232,4 +234,404 @@ img
     bottom: 0;
     left: 0;
     right: 0;
+} */
+
+.image-container
+{
+    position: relative;
+    transition: 5s;
+
+}
+.image-container::before
+{
+    position: absolute;
+    content: "";
+    background-color: black;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+}
+.image-container:hover
+{
+    transform: scale(1.5);
+}
+.bbig-pera
+{
+    width: 100%;
+    /* background-color: aqua; */
+    z-index: 2;
+    position:absolute;
+    margin: -230px 0px 0px 15px;
+}
+.bbig-pera h2
+{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+
+}
+.bbig-pera span
+{
+    color: #2eca6a;
+}
+.rrent
+{
+    width: 100%;
+    z-index: 2;
+    position:absolute;
+    margin: -120px 0px 0px 15px;
+}
+.rrent h2
+{
+    color: white;
+    font-weight: lighter;
+    border: 2px;
+    position: absolute;
+    border-style: groove;
+    border-color: #2eca6a;
+    border-radius: 25px;
+    padding: 5px ;
+    font-size: 15px;
+}
+.read
+{
+    width: 100%;
+    z-index: 2;
+    position:absolute;
+    margin: -70px 0px 0px 15px;
+}
+.raed a
+{
+    text-decoration: none;
+}
+.read a h4
+{
+    color: white;
+    font-weight: lighter;
+}
+.read i
+{
+    color: white;
+    font-size: 13px;
+    position:   absolute;
+    margin: -14px 0px 0px 90px;
+} 
+.agent-container
+{
+    position: relative;
+
+}
+.layer
+{
+    background-color: #2eca6a;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+    display: none;
+}
+.agent-container:hover .layer
+{
+    display: block;
+}
+.link-two {
+    color: #000000;
+    transition: all 0.5s ease;
+}
+
+.layer a {
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+  
+}
+.layer-p
+{
+    height: 50px;
+    width: 80%;
+    /* position: relative; */
+    position: absolute;
+    /* background-color: aliceblue; */
+    margin-top: 28%;
+   
+}
+.layer-p p
+{
+    color: #555555;
+    margin-left: 20px;
+    font-family: sans-serif;
+    transition: all 0.5s ease;
+}
+.layer-content
+{
+    /* height: 100px; */
+    width: 100%;
+    /* position: relative; */
+    position: absolute;
+   /* background-color: aliceblue; */
+    margin-top: 45%;
+}
+.layer-content h3
+{
+    position: absolute;
+    margin-left: 20px;
+    transition: all 0.5s ease;
+}
+.layer-content p
+{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-left: 100px;
+    transition: all 0.5s ease;
+}
+#email
+{
+    position: absolute;
+    margin-top: 30px;
+
+}
+.layer-icon
+{
+    /* height: 50px; */
+    width: 180px;
+    /* position: relative; */
+    position: absolute;
+    /* background-color: aliceblue; */
+    margin-top: 80%;
+    margin-left: 25%;
+    transition: 0.1s;
+}
+.layer-icon i
+{
+    font-size: 20px;
+    padding: 10px;
+    transform: scale(20px);
+}
+.news-container
+{
+    position: relative;
+    transition: 5s;
+
+}
+.news-container:hover
+{
+    transform: scale(1.5);
+}
+.news-container::before
+{
+    position: absolute;
+    content: "";
+    background-color: black;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+}
+.nbig-pera
+{
+    width: 60%;
+    /* background-color: aqua; */
+    z-index: 2;
+    position:absolute;
+    margin: -180px 0px 0px 15px;
+}
+.nbig-pera h2
+{
+    color: white;
+
+}
+.tag
+{
+    width: 100%;
+    z-index: 2;
+    position:absolute;
+    margin: -230px 0px 0px 15px;
+}
+.tag h2
+{
+    color: black;
+    font-weight: lighter;
+    border: 2px;
+    position: absolute;
+    /* border-style: groove; */
+    background-color: #2eca6a;
+    border-radius: 25px;
+    padding: 8px ;
+    font-size: 15px;
+}
+.date
+{
+
+    width: 100%;
+    z-index: 2;
+    position:absolute;
+    margin: -70px 0px 0px 15px;
+}
+.date h4
+{
+    color: white;
+    font-weight: lighter;
+}
+.div-50
+{
+    width:calc(50% - 30px);
+    /* background-color: aqua; */
+    margin: 15px;
+}
+.div-50 i
+{
+    position: absolute;
+}
+.t-pera
+{
+    width: 100%;
+    position: relative;
+    margin: 100px 0px 0px 10px ;
+}
+.t-pera p
+{
+    font-size: 20px;
+    font-style: italic;
+    position: absolute;
+    color:#555555 ;
+}
+.logo
+{
+    position: absolute;
+    width: 8%;
+    /* border: 2px;
+    border-radius: 100px; */
+}
+.logo img
+{
+    border-radius: 100%;
+    position: absolute;
+    margin: 110px 0px 0px 0px;
+} 
+.pp
+{
+    width: 150px;
+    /* background-color: #000000; */
+    position: absolute;
+    margin: 150px  0px 0px 130px;
+}
+.footer
+{
+    background-color: #555555;
+    /* position: relative; */
+}
+.fbox
+{
+    width: calc(33.33% - 30px);
+    margin: 15px;
+    background-color: #2eca6a;
+    /* position: absolute; */
+}
+.fbox h2
+{
+    font-size: 30px;
+}
+.fbox p
+{
+    /* position: absolute; */
+    margin-top: 20px;
+    font-size: 18px;
+}
+.link
+{
+    width: 100%;
+    background-color: aqua ;
+    margin: 50px 0px 0px 0px;
+}
+.link ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.link ul li
+{
+    list-style: none;
+    padding: 8px;
+
+}
+.link a:hover{
+    color: #2eca6a;
+}
+.link i
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.link i:hover
+{
+    color: #2eca6a;
+}
+.linked
+{
+    /* position: relative; */
+    background-color: aqua;
+    width: 100%;
+}
+.linked ul
+{
+    /* position: relative; */
+}
+.linked ul li
+{
+    /* position: absolute; */
+}
+.linked ul li a
+{
+    /* position: relative; */
+    /* margin-left: 10px;
+     */
+}
+.div-list
+{
+    /* background-color:white; */
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+.div-mini
+{
+    /* background-color:white; */
+    height: 100px;
+    width: 100%;
+}
+.div-mini ul
+{
+    position: relative;
+}
+.div-mini ul li 
+{
+    margin-left: -40px;
+  
+}
+.div-mini i
+{
+   margin-left: 50px;
+   margin-top: 20px;
+   /* padding: -10px; */
+}
+.div-mini a
+{
+    color: black;
 }
