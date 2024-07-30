@@ -526,18 +526,18 @@ img
     width: 150px;
     /* background-color: #000000; */
     position: absolute;
-    margin: 150px  0px 0px 130px;
+    margin: 150px  0px 0px 100px;
 }
 .footer
 {
-    background-color: #555555;
+    background-color: #e0d7d7;
     /* position: relative; */
 }
 .fbox
 {
     width: calc(33.33% - 30px);
     margin: 15px;
-    background-color: #2eca6a;
+    /* background-color: #2eca6a; */
     /* position: absolute; */
 }
 .fbox h2
@@ -553,7 +553,7 @@ img
 .link
 {
     width: 100%;
-    background-color: aqua ;
+    /* background-color: aqua ; */
     margin: 50px 0px 0px 0px;
 }
 .link ul li a
@@ -585,7 +585,7 @@ img
 .linked
 {
     /* position: relative; */
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 100%;
 }
 .linked ul
@@ -613,7 +613,7 @@ img
 .div-mini
 {
     /* background-color:white; */
-    height: 100px;
+    /* height: 100px; */
     width: 100%;
 }
 .div-mini ul
@@ -635,3 +635,344 @@ img
 {
     color: black;
 }
+@media (max-width:1200px) {
+    .main-1140{
+        width: 1140px;
+    }
+}
+@media (min-width:993) and (max-width:1140px) {
+    .main-1140{
+        width: 960px;
+    }
+}
+@media (max-width:992px) {
+    .main-1140{
+        width: 960px;
+    }
+    .box h2 {
+        margin: -80px 0px 0px 15%;
+        font-size: 24px;
+    }
+    .bbig-pera h2 {
+        font-size: 27px;
+    }
+    .rrent {
+        margin: -138px 0px 0px 15px;
+    }
+    .read {
+        margin: -81px 0px 0px 15px;
+    }
+    .heading {
+        margin: 94px 0px 0px 24px;
+    }
+    .heading h2 {
+        font-size: 34px;
+    }
+    .heading h4 {
+        margin: -30px 0px 0px 56%;
+        font-size: 16px;
+    }
+    .heading i {
+        margin: -27px 0px 0px 65%;
+        font-size: 14px;
+    }
+    .div-mini {
+    
+        margin: 4px 0px 0px -63px;
+    }
+    .t-pera {
+        margin: -1px 0px 0px 10px;
+    }
+    .t-pera p {
+        font-size: 15px;
+    }
+    .fbox p {
+        font-size: 14px;
+    }
+    .fbox h2 {
+        font-size: 26px;
+    }
+    .link {
+        margin: 23px 0px 0px 0px;
+    }
+    .link ul li a {
+        font-size: 14px;
+       
+    }
+    .link i {
+        font-size: 12px;
+    }
+    .main-100 h1 {
+        margin: 47px 15px 20px 155px;
+        font-size: 43px;
+    }
+    .layer a {
+        font-size: 13px;
+    }
+    .layer-p p {
+        font-size: 10px;
+    }
+    .layer-content h3 {
+        margin: 20px 0px 0px 20px;
+        font-size: 10px;
+    }
+    .layer-content p {
+       
+        margin: 22px 0px 0px 60px;
+        font-size: 10px;
+    }
+    #email {
+        margin-top: 39px;}
+
+    .layer-icon {   
+            margin-top: 77%;
+            margin-left: 6%;
+        }
+    .nbig-pera {
+            margin: -135px 0px 0px 13px;
+            font-size: 12PX;
+        }
+        .tag {
+            margin: -184px 0px 0px 15px;
+        }
+        .tag h2 {
+            padding: 3px;
+            font-size: 12px;
+        }
+}
+
+    
+    
+
+@media (min-width:768px) and (max-width:992px) {
+    .main-1140{
+        width: 720px;
+    }
+
+}
+@media (max-width:768px) {
+    .main-1140{
+        width: 720px;
+    }
+    .big-pera {
+       
+        margin: -300px 10px 0px 11px;
+    }
+    .big-pera h2{
+        font-size: 40px;
+    }
+    .rent {
+        width: 129px;
+        margin: -178px 10px 0px 20px;
+    }
+    .rent h2{
+        font-size: 17px;
+    }
+    .pera {
+        margin: -356px 10px 0px 19px;
+      
+    }
+    .main-100 h1 {
+        margin: 41px 15px 20px 56px;
+        font-size: 36px;
+    }
+    .icon-card {
+        width: 106px;
+        margin: 23px;
+    }
+    .icon-card i {
+        font-size: 51px;
+        margin: 10px 0px -200px 25px;
+    }
+    .box h2 {
+        margin: -74px 0px 0px 15%;
+        font-size: 22px;
+    }
+    .heading h2 {
+        font-size: 27px;
+    }
+    .heading h4 {
+        margin: -25px 0px 0px 71%;
+        font-size: 16px;
+    }
+    .heading i {
+        margin: -22px 0px 0px 84%;
+        font-size: 12px;
+    }
+    .div-mini i {
+        margin-left: 36px;
+        margin-top: 20px;
+    }
+    .fbox p {
+        font-size: 13px;
+    }
+    .link ul li a {
+        font-size: 12px;
+    }
+    .bbig-pera h2 {
+        font-size: 24px;
+    }
+    .layer-icon i {
+        font-size: 16px;
+        padding: 11px;
+    }
+}
+@media (min-width:577px) and (max-width:720px) {
+    .main-1140{
+        width: 100%;
+    }
+}
+@media (max-width:576px) {
+    .main-1140{
+        width:540px;
+    }
+    .main-100 h1 {
+        margin: 40px 12px 0px 56px;
+        font-size: 30px;
+    }
+    .icon-card {
+        width: 95px;
+        margin: 23px;
+    }
+    .icon-card i {
+        font-size: 44px;
+        margin: 10px 0px -200px 25px;
+    }
+    .box h2 {
+        margin: -65px 0px 0px 18%;
+        font-size: 18px;
+    }
+    .box-pera p {
+        font-size: 11px;
+      
+    }
+    .box-pera h4 {
+        margin: 23px 0px 0px 30px;
+        font-size: 12px;
+    }
+    .box-pera i {
+        margin: -12px 0px 0px 114px;
+        font-size: 12px;
+    }
+    .heading {
+        margin: 57px 0px 15px 24px;
+    }
+    .heading h2 {
+        font-size: 21px;
+    }
+    .heading h4 {
+        margin: -16px 0px 0px 69%;
+        font-size: 12px;
+    }
+    .pp {
+        width: 148px;
+        margin: 150px 0px 0px 127px;
+    }
+    .t-pera p {
+        font-size: 13px;
+        margin-left: -10px;
+    }
+    .heading i {
+        margin: -14px 0px 0px 81%;
+        font-size: 10px;
+    }
+    .bbig-pera h2 {
+        font-size: 17px;
+    }
+    .bbig-pera {
+        margin: -157px 0px 0px 15px;
+    }
+    .rrent {
+        margin: -103px 0px 0px 11px;
+    }
+    .rrent h2{
+        font-size: 10px;
+    }
+    .read {
+        margin: -64px 0px 0px 15px;
+    }
+    .read a h4 {
+        font-size: 13px;
+    }
+    .read i {
+        font-size: 10px;
+        margin: -11px 0px 0px 81px;
+    }
+    .layer a {
+        
+        font-size: 10px;
+        margin-left: 17px;
+        margin-top: 14px;   
+    }
+    .layer-p p {
+        font-size: 9px;
+        margin-left: 13px;
+    }
+    .layer-content h3 {
+        margin: 20px 0px 0px 15px;
+        font-size: 8px;
+    }
+    .layer-content p {
+       
+        margin: 22px 0px 0px 50px;
+        font-size: 10px;
+    }
+    #email {
+        margin-top: 40px;
+        /* margin-left: 30px; */
+    }
+
+    .layer-icon {
+        margin-top: 84%;
+        margin-left: 18%;
+    }
+        .layer-icon i {
+            font-size: 11px;
+            padding: 3px;
+        }
+        .tag {
+            margin: -127px 0px 0px 15px;
+        }
+        .nbig-pera h2 {
+            font-size: 12px;
+            margin: 37px 0px 0px 0px;
+        }
+        .date {
+            margin: -59px 0px 0px 12px;
+        }
+        .date h4 {
+            
+            font-weight: lighter;
+            font-size: 13px;
+        }
+        .fbox h2 {
+            font-size: 20px;
+        }
+        .link i {
+            position: absolute;
+            margin-top: 16px;
+            margin-left: 8px;
+        }
+        .fbox p {
+            font-size: 10px;
+        }
+        .link ul li a {
+            font-size: 10px;
+        }
+        .link i {
+            font-size: 9px;
+        }
+        .link {
+            margin: 12px 0px 0px 0px;
+        }
+        .div-mini {
+            margin: 4px 0px 0px -63px;
+        }
+        .layer-icon i {
+            font-size: 5px;
+            padding: 1%;
+        }
+    }
+    
+
+ 
