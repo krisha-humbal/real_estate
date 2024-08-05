@@ -24,8 +24,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+    /* align-items: center; */
 }
+/* .flexf
+{
+    display: flex;
+    flex-wrap: wrap;
+} */
 .w10
 {
    width: 10%;
@@ -165,11 +170,13 @@ img{
 
 .box p{
     font-size: 25px;
-    margin-left: 45px;
-    margin-top: 10px;
-    padding: 0px ;
+    /* margin-left: 40px; */
+    /* margin-top: 10px; */
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-weight: lighter;
     color: white;
+    text-align: center;
 }
 .box p:hover
 {
@@ -178,9 +185,12 @@ img{
 .box i
 {
     font-size: 40px;
-    margin-left: 60px;
+    /* margin-left: 60px;   */
     margin-top: 50px;
+    /* margin-left: 50px; */
     color: #ffc451;
+    text-align: center;
+
 }
 .big-box
 {
@@ -257,7 +267,7 @@ img{
 {
     width: 800px;
     padding-bottom: 40px;
-
+    padding-top: 50px;
 }
 .heading p::after
 {
@@ -326,7 +336,7 @@ img{
     height: 300px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    position: absolute;
+    /* position: absolute; */
     z-index: -1;
 }
 .con-img::before
@@ -334,13 +344,9 @@ img{
     content: "";
     position: absolute;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.3;
     width: 100%;
-    top:0;
-    bottom: 0;
-
-    /* left: 0; */
-    /* right: 0; */
+   height: 300px;
 }
 .container{
     z-index: 3;
@@ -348,6 +354,7 @@ img{
     /* background-color: #ffc451; */
     margin-top: 70px;
     width: 70%;
+
 }
 .container h1
 {
@@ -383,4 +390,144 @@ button:hover
     background-color: #ffc451;
     border-color: #ffc451;
     color: white;
+}
+.menu
+{
+    width: 100%;
+    /* background-color: #ffc451; */
+}
+.menu li 
+{
+    /* background-color: #ffc451; */
+    text-align:right;
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 20px 10px 20px;
+    line-height: 1;
+    margin: 5px;
+    border-radius: 5px;
+    /* position: absolute; */
+}
+
+#all
+{
+    background-color: #ffc451;
+    padding: 8px 25px 10px 25px;
+}
+.menu li:hover
+{
+    background-color: #ffc451;
+}
+.emg-sec
+{
+    width: calc(33.33% - 30px);
+    margin: 15px;
+    position: relative;
+    /* background-color: #494646; */
+}
+.emg
+{
+    width: calc(100% - 30px);
+    margin: 15px;
+    position: relative;
+}
+.des
+{
+    width: 100%;
+    position: absolute; 
+    z-index: 8;
+    background-color: white;
+    display: none;
+    bottom: 0px;
+    /* background-color: #2eca6a; */
+}
+.emg:hover .des
+{
+    display: block;
+}
+.des h3
+{
+    margin-left: 15px;
+}
+.des p
+{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 15px;
+}
+
+#i1
+{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 0px;
+    font-size: 30px;
+}
+.des i
+{
+    
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -60px;
+    font-size: 30px;
+    color:#bcb0b0;
+}
+.des i:hover
+{
+    color: #ffc451;
+}
+.sec{
+    width: 40% ;
+    background-color: #bcb0b0;
+}
+.sec1
+{
+    width:calc(60% - 30px);
+    margin-left: 20px;
+    /* margin-left: 40px; */
+    /* background-color: #bcb0b0; */
+}
+.h-pera
+{
+    width: 600px;
+    /* background-color: #ffc451; */
+    margin-left: 30px;
+}
+.h-pera p
+{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.flex2
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div-50
+{
+    width: calc(25% -0px);
+    margin: 15px;
+    /* background-color: aqua;   */
+    padding: 10px  0px 40px 10px;
+}
+.div-50 i
+{
+    font-size: 50px;
+    color: #ffc451;
+}
+.mini-info
+{
+    width: 150px;
+    margin-left: 20px;
+}
+.mini-info p
+{
+    color: #555555;
+    font-weight: lighter;
+    padding-top: 20px;
+    margin-left: -10px;
+}
+.mini-info span
+{
+    color: #444444;
 }
