@@ -23,6 +23,8 @@
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    
 }
 .w10
 {
@@ -114,9 +116,7 @@ img{
     margin: -750px 0px 0px 33% ;
     /* background-color: aqua; */
     padding: 0px 0px 0px 35px;
-    transform: translateY(0px);
-    transition: 1s;
- 
+   
    
 }
 .big-pera h1
@@ -124,10 +124,7 @@ img{
     font-size: 52px;
     /* padding: 4px 0px 10px 0px; */
     color: white;
-    /* transform: translate(0px,5px);
-    transition: 2s; */
-    transform: scale(1);
-    transition: 3s;
+   
 }
 .big-pera span
 {
@@ -139,8 +136,7 @@ img{
     font-size: 22px;
     margin-top: 10px;
     font-weight: lighter;
-    transform: scale(1);
-    transition: 2s;
+   
 }
 #pera{
     margin-left: -25px;
@@ -159,8 +155,7 @@ img{
     /* background-color: blue; */
     position: relative;
     border: 2px solid #555555;
-    transform: translateY(0px);
-    transition: 1s;
+   
 
    
 }
@@ -170,7 +165,6 @@ img{
 
 .box p{
     font-size: 25px;
-    /* position: absolute; */
     margin-left: 45px;
     margin-top: 10px;
     padding: 0px ;
@@ -194,13 +188,6 @@ img{
     /* background-color: #ffc451; */
     margin: 15px;
     padding-top: 68px;
-    transition: 1s;
-    /* transition-delay: 3s; */
-    /* bottom: -47; */
-    transform:  translate3d(0,50px,0);  
-    transform: translate3d(10px,-10px,0);
-    transform: translateZ(0) scale(1);
-    /* transform: translate3d(0,-20px,0) scale(1); */
     
 }
 .big-box h2
@@ -235,8 +222,8 @@ img{
 }
 .big-box i
 {
-    margin-left: -20px;
-    position: absolute;
+    /* margin-left: -20px; */
+    /* position: absolute; */
     color: #ffc451;
 }
 .flex1
@@ -245,35 +232,32 @@ img{
     flex-wrap: wrap;
     flex-flow: column;
 }
+
+.icon
+{
+    font-size: 35px;
+}
 .content
 {
-    width: calc(100% - 30px);
-    margin: 15px;
-    /* background-color: aqua; */
+        width: calc(100% - 30px);
+        margin: 15px;
+        /* background-color: aqua; */
 }
-.content h2
+.info p
 {
-    margin-left: 70px;
-    font-size: 25px;
-}
-.content i
-{
-    margin-left: 0px;
-    margin-top: 10px;
-    font-size: 50px;
-    position: absolute;
-    background-color: transparent;
-
-}
-.content p
-{
-    margin-left: 70px;
-    margin-top: 0px;
     font-style: normal;
+    margin: 0px 0px 0px 40px;
 }
+.info h2
+{
+    margin: -35px 0px 0px 50px ;
+    position: absolute;
+} 
 .heading
 {
     width: 800px;
+    padding-bottom: 40px;
+
 }
 .heading p::after
 {
@@ -289,4 +273,114 @@ img{
 {
     margin-top: 10px;
     font-size: 35px;
+}
+.service
+{
+    width: calc(33.33% - 30px);
+    margin: 15px;
+    /* background-color: aqua; */
+    justify-content:space-between;
+    box-shadow:0px 0px 25px rgb(197, 191, 191);
+}
+.service:hover
+{
+    transform: translateY(-10px);
+}
+.icon-i
+{
+    width: 10%;
+    background-color: #ffc451;
+    padding: 30px 50px 20px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    /* margin: 0px 0px 0px 40%; */
+}
+.icon-i i
+{
+    font-size: 35px;
+    margin-left: -8px;
+
+}
+.info-pera
+{
+    /* background-color: #bcb0b0; */
+    margin-top: 20px;
+}
+.info-pera h3
+{
+    text-align: center;
+    font-weight: 100px;
+}
+.info-pera p
+{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    font-weight: lighter;
+}
+.con-img
+{
+    width: 100%;
+    /* display: block; */
+    background-image: url("https://bootstrapmade.com/demo/templates/Gp/assets/img/cta-bg.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    z-index: -1;
+}
+.con-img::before
+{
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    top:0;
+    bottom: 0;
+
+    /* left: 0; */
+    /* right: 0; */
+}
+.container{
+    z-index: 3;
+    position: absolute;
+    /* background-color: #ffc451; */
+    margin-top: 70px;
+    width: 70%;
+}
+.container h1
+{
+    color: white;
+    text-align: center;
+}
+.container p
+{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+button  
+{
+    position: relative;
+    /* top: 0px; */
+    left: 350px;
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    background-color:black;
+    border-color: rgb(15, 15, 15);
+    color: #494646;
+    font-size: 20px;
+    border-radius: 10px;
+}
+button:hover
+{
+    background-color: #ffc451;
+    border-color: #ffc451;
+    color: white;
 }
