@@ -355,3 +355,89 @@ img{
 {
     padding: 10px;
 }
+.bbimg
+{
+    /* width: 100%; */
+    background-image: url("https://bootstrapmade.com/demo/templates/Gp/assets/img/testimonials-bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    display: block;
+}
+.bbimg::before
+{
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    /* height: 300px; */
+}
+.testi-container
+{
+    position: absolute;
+    /* background-color: aqua; */
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.tes-img
+{
+    /* height: 100px; */
+    width: 100px;
+}
+.social {
+    position: relative;
+    left: 0;
+    bottom: 80px;
+    right: 0;
+    /* opacity: 0;
+    transition: ease-in-out 0.3s; */
+    text-align: center;
+    /* background-color: #ff51b1; */
+}
+.member-info
+{
+    position:absolute;
+    background-color:white;
+    left: 0;
+    bottom:0px;
+    right: 0;
+    position: relative;
+
+    padding-left: 20px;
+}
+.social i
+{
+    background-color: #ffc451;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #979696;
+}
+.social a
+{
+    color: rgb(8, 8, 8);
+}
+.social :hover
+{
+    background-color: #ffc451;
+}
+.team-member
+{
+    background-color: var(--surface-color);
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+.add-info
+{
+    width: 400px;
+}
