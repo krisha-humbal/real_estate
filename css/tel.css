@@ -1,3 +1,4 @@
+
 .back-img
 {
     background-image: url("https://stockholm29.qodeinteractive.com/wp-content/uploads/2020/05/h-rev-img-02.jpg");
@@ -16,4 +17,29 @@
     position: relative;
    /* background-color: rgb(45, 121, 188); */
   
+}
+.cover
+{
+    position: absolute;
+    width: 100%;
+    background-color:white;
+    opacity: 0.9;
+    display: none;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+
+}
+.col-span-1:hover .cover{
+    display: block;
+}
+.container1
+{
+    width: 1140px;
+    margin: auto;
+}
+.backk-img
+{
+    width:100%
 }
